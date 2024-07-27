@@ -32,7 +32,8 @@
     fetch(dataFile)
       .then((res) => res.text())
       .then((text) => loadData(text))
-      .then((parsedText) => showData(parsedText));
+      .then((parsedText) => showData(parsedText))
+      .catch((error) => JSON.stringify(error));
   });
 
   // Function to load data from CSV file
