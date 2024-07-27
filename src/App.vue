@@ -24,7 +24,7 @@
   const color5 = ref(false)
   
   // File path to your CSV file
-  const dataFile = "./src/assets/sgb-words.csv"
+  const dataFile = "./src/assets/sgb-words.txt"
 
   // Function to load data from CSV file
   onMounted(() => {
